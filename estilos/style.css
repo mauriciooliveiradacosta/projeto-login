@@ -11,9 +11,6 @@
 body{
     background-color: var(--lilas);
 }
-img{
-    display: none;
-}
 main{
     width: 100vw;
     height: 100vh;
@@ -22,7 +19,8 @@ main{
 }
 section{
     background-color: white;
-    border-radius: 20px 10px;
+    padding-left:5px;
+    border-radius: 10px 20px;
     width: 250px;
     height: 500px;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.445);
