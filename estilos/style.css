@@ -25,10 +25,13 @@ section{
     border-radius: 20px 10px;
     width: 250px;
     height: 500px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.445);
     overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
+    transition: width .5s, height .3s;
+    transition-timing-function: ease;
     transform: translate(-50%, -50%);
 }
 section > div#imagen{
